@@ -1,0 +1,8 @@
+.container h2 {
+    font-size: 68px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}

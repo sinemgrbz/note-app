@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  scroll-behavior: smooth;
+  font-family: "Caveat", serif;
+}
+
+a, 
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: var(--font-color-1);
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  background: url('./assets/background.jfif') repeat center center;
+  position: relative;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 28px 0;
+}
+
