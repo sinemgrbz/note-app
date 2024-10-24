@@ -1,7 +1,8 @@
 import './App.css'
 import Header from './components/Header'
-import Note from './components/Note'
+import AddNote from './components/AddNote'
 import Search from './components/Search'
+import Notes from './components/Notes'
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
     <>
      <Header/>
      <Search/>
-     <Note/>
+     {/* <AddNote/> */}
+    <Notes/>
     </>
   )
 }

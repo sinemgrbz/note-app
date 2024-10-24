@@ -1,0 +1,78 @@
+.note-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 24px;
+    font-size: 24px; 
+}
+
+.note-input {
+    position: relative;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+    margin-right: 12px;
+} 
+
+.color-btn-group {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.color-btn {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pink {
+    background: var(--note-color-1); 
+}
+
+.purple {
+    background:var(--note-color-2); 
+}
+
+.yellow {
+    background: var(--note-color-3); 
+}
+
+.green {
+    background: var(--note-color-4); 
+}
+
+.add {
+    width: 120px;
+    padding: 12px 24px;
+    text-align: center;
+    background: #468966; 
+    border-radius: 32px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 16px;
+    display: none;
+}
+
+

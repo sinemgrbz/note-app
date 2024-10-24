@@ -7,6 +7,13 @@
   font-family: "Caveat", serif;
 }
 
+:root {
+  --note-color-1: #f4aeba;  ;
+  --note-color-2: #d59bf6;;
+  --note-color-3: #fdffcd; 
+  --note-color-4: #cbf078; 
+}
+
 a, 
 a:link,
 a:visited {
@@ -37,12 +44,12 @@ body {
   background: url('./assets/background.jfif') repeat center center;
   position: relative;
   background-attachment: fixed;
-  overflow: hidden;
 }
 
 .container {
   max-width: 60%;
   margin: 0 auto;
-  padding: 28px 0;
+  padding: 12px 0;
 }
+
 
