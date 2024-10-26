@@ -1,16 +1,13 @@
 import './note.css';
 
-export default function Note ({noteText}) {
+export default function Note ({noteText,color,onDelete}) {
+
     return (
         <>
-        <div className="container">
-            <div className="note-container">
-                <div className="note">
-                    <p>{noteText}</p>
-                    <i class="fa-regular fa-trash-can"></i>
+                <div className="note" style={{ backgroundColor: color }}>   
+                    <>{noteText}</p>
+                    <i class="fa-regular fa-trash-can" onClick={onDelete}></i>
                 </div>
-            </div>
-        </div>
         </>
     )
 };

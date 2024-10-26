@@ -1,0 +1,9 @@
+.notelist-container {
+        display: flex;
+        /* justify-content: space-between; */
+        margin-top: 2px;
+        flex-wrap: wrap;
+        max-width: 60%;
+        margin: 0 auto;
+        gap: 20px;
+    }

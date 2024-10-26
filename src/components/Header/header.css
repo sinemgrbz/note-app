@@ -6,3 +6,10 @@
     align-items: center;
     margin-top: 16px;
 }
+
+@media (max-width: 576px) {
+    .container h2 {
+        font-size: 52px;
+    }
+
+}

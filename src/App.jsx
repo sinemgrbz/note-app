@@ -10,9 +10,8 @@ function App() {
   return (
     <>
      <Header/>
-     <Search/>
      {/* <AddNote/> */}
-    <Notes/>
+      <Notes/>
     </>
   )
 }
