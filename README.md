@@ -17,4 +17,6 @@ A simple and user-friendly notes application built with React, allowing users to
 - **Local Storage API**: For storing notes data in the browser.
 ---
 
+Check out my project [here](https://note-app-s.vercel.app/).
+
 ![github](/public/noteApp.png)
