@@ -6,7 +6,7 @@ export default function Note ({noteText,color,onDelete}) {
         <>
                 <div className="note" style={{ backgroundColor: color }}>   
                     <p>{noteText}</p>
-                    <i class="fa-regular fa-trash-can" onClick={onDelete}></i>
+                    <i className="fa-regular fa-trash-can" onClick={onDelete}></i>
                 </div>
         </>
     )

@@ -41,10 +41,10 @@ export default function AddNote({ note, setNote ,addNote, color, setColor}) {
 
                 <div className="btn-container">
                     <div className="color-btn-group">
-                    <button className='color-btn pink' onClick={(e) => handleColorChange('var(--note-color-1)', e)}><i className="fa-solid fa-check"></i></button>
-                            <button className='color-btn purple' onClick={(e) => handleColorChange('var(--note-color-2)', e)}><i className="fa-solid fa-check"></i></button>
-                            <button className='color-btn yellow' onClick={(e) => handleColorChange('var(--note-color-3)', e)}><i className="fa-solid fa-check"></i></button>
-                            <button className='color-btn green' onClick={(e) => handleColorChange('var(--note-color-4)', e)}><i className="fa-solid fa-check"></i></button>
+                        <button className='color-btn pink' onClick={(e) => handleColorChange('var(--note-color-1)', e)}><i className="fa-solid fa-check"></i></button>
+                        <button className='color-btn purple' onClick={(e) => handleColorChange('var(--note-color-2)', e)}><i className="fa-solid fa-check"></i></button>
+                        <button className='color-btn yellow' onClick={(e) => handleColorChange('var(--note-color-3)', e)}><i className="fa-solid fa-check"></i></button>
+                        <button className='color-btn green' onClick={(e) => handleColorChange('var(--note-color-4)', e)}><i className="fa-solid fa-check"></i></button>
                        </div>
                     <div className="add-btn">
                         <button className='add' onClick={handleAdd}>Add</button>
